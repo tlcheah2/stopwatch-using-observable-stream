@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+html,
+body,
+h1,
+p,
+div,
+button {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  color: #2f3640;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fbc531;
+  user-select: none;
+}
+
+h1 {
+  width: 280px;
+  font-size: 54px;
+  text-shadow: 5px 5px rgba(47, 54, 64, 0.3);
+  user-select: none;
+}
+
+p {
+  width: 280px;
+  padding: 0px 15px;
+  border: 4px solid #fbc531;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 30px 0px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 47px;
+  background: #f7f1e3;
+  user-select: none;
+}
+
+div {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 4px 15px;
+  border: 3px solid #f7f1e3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  font-size: 17px;
+  font-weight: bold;
+  color: #f7f1e3;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+button:nth-child(1) {
+  background: #227093;
+}
+
+button:nth-child(2) {
+  background: #b33939;
+}
+
+button:nth-child(3) {
+  background: #218c74;
+}
