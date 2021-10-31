@@ -1,19 +1,17 @@
 # StopwatchUsingObservableStream
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
-
 This project serves as the tutorial for create stopwatch using Observable Stream.
 
 The UI for this project is taken from [Codepen](https://codepen.io/oguzuyanik/pen/GREKdym). Credit goes to [@oguzuyanik](https://codepen.io/oguzuyanik)
 
+## Tutorial Guide
+
+This is a Stopwatch Project Tutorial. You could learn the following knowledge in this practice
+
+- Learn how to listen to click event from DOM using `rxjs` - `fromEvent`
+- Learn how to use `merge` from rxjs so you could centralize the logic for several observable
+- Learn how to use `interval` from rxjs to update the stopwatch counter
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
